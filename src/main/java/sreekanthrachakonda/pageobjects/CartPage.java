@@ -11,6 +11,7 @@ import sreekanthrachakonda.AbstractComponents.AbstractComponent;
 
 public class CartPage extends AbstractComponent {
 	WebDriver driver;
+//Add this comment for testing
 
 	@FindBy(css = ".totalRow button")
 	WebElement checkoutEle;
